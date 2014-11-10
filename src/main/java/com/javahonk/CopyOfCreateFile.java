@@ -20,6 +20,7 @@ public class CopyOfCreateFile {
 			writer = new PrintWriter("C:\\JavaHonk\\File\\JavaHonk.txt", "UTF-8");
 			writer.println("Write something in first line");
 			writer.println("Write something in second line");
+			System.out.println("test");
 			
 			
 			writer2 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("C:\\JavaHonk\\File\\JavaHonk2.txt"), "utf-8"));
